@@ -1,0 +1,15 @@
+import java.util.Stack;
+
+public class Stac {
+    public static void main(String[] args){
+        Stack <String> L= new Stack<String>();
+        L.push("abc");
+        L.push("cde");
+        L.push("fgh");
+        System.out.println(L);
+        L.pop();
+        System.out.println("After poping"+L);
+        L.clear();
+        System.out.println("List is clear"+L);
+    }
+}
