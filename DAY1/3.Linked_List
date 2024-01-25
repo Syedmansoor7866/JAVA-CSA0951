@@ -1,0 +1,15 @@
+import java.util.LinkedList;
+
+public class collec {
+    public static void main(String[] args) {
+        LinkedList<String> L = new LinkedList<String>();
+        L.add("abc");
+        L.add("cde");
+        L.add("fgh");
+        System.out.println(L);
+        L.remove("abc");
+        System.out.println("After removing"+L);
+        L.clear();
+        System.out.println("List is clear"+L);
+    }
+}
