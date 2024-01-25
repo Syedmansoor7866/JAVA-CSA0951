@@ -1,0 +1,16 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class Sorted_Se {
+    public static void main(String[] args){
+        Set<String> L= new HashSet<String>();
+        L.add("abc");
+        L.add("cde");
+        L.add("fgh");
+        System.out.println(L);
+        L.remove("abc");
+        System.out.println("After removing"+L);
+        L.clear();
+        System.out.println("List is clear"+L);
+    }
+}
