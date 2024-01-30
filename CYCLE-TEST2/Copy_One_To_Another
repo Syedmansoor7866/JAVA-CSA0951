@@ -1,0 +1,12 @@
+public class Copy_of_elements_inArray {
+    public static void main(String[] args){
+        int a[]={1,5,9,2,7,6};
+        int b[]=new int[a.length];
+        for(int i=0;i<a.length;i++){
+            b[i]=a[i];
+        }
+        for(int j=0;j<b.length;j++){
+            System.out.print(b[j]+" ");
+        }
+    }
+}
