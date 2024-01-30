@@ -1,0 +1,19 @@
+public class MinMax {
+    public static void main(String[] args){
+        int a[]={12,24,56,24,678,24};
+        int min=a[0],max=a[0];
+        int i;
+        for(i=0;i<a.length;i++){
+            if(a[i]<min){
+                min=a[i];
+            }
+        }
+        System.out.println("min value:"+min);
+        for(i=0;i<a.length;i++){
+            if(a[i]>max){
+                max=a[i];
+            }
+        }
+        System.out.println("max value:"+max);
+    }
+}
